@@ -26,3 +26,9 @@ echo $second->getName();
 
 
 //echo $second->saySomething('Hello World');
+
+/**
+ * Quiz!
+ * A method is basically a Function
+ * 'extends' keyword is used to let a child class inherit a parent class
+ */
