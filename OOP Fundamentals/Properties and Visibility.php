@@ -1,6 +1,12 @@
 <?php
 class User
 {
+    // before to get to access modifier lets just add a couples properties here
+    public $id ;
+    public $username;
+    public $email;
+    public $password;
+
     // classes & methods is the constructor
     public function __construct()
     {
