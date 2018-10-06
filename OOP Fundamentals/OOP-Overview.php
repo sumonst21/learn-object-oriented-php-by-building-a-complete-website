@@ -33,5 +33,19 @@ Class User{
 
  // Call a method/function
  $user->register();
+
+
+ /** Abstract Classes */
+abstract class SomeClass{
+    abstract public function someFunction(){
+
+    }
+}
+
+/**
+ * Can NOT be instantiated and used diirectly
+ * Must be extended by another class
+ * if a property or method is "abstract" then the class also MUST be "abstract"
+ */
  
 ?>
