@@ -23,5 +23,15 @@ Class User{
  {
      
  }
+
+/** Instantiate and Use a CLass */
+ // To create an instance
+ $user = new User;
+
+ // Print a property
+ echo $user->firstName;
+
+ // Call a method/function
+ $user->register();
  
 ?>
