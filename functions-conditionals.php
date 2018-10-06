@@ -13,14 +13,29 @@
         echo strtoupper($greeting. ' '. $name);
     }
     greet('Whats Up', 'Sumon');
-    */
 
     // Conditionals
-    $num = 10;
+    /*
+    $num1 = 50;
+    $num2 = 500;
 
-    if ($num == 10) {
+    if ($num1 == 40) {
         echo 'Correct';
+    } elseif($num1 == 50) {
+        echo 'Correct';
+    } else {
+        echo 'Wrong';
     }
+    */
+
+$num1 = 30;
+$num2 = 20;
+
+if($num1 == 30 && $num2 == 20){ # *||* this is OR and this *&&* this is AND conditions
+    echo 'Correct';
+} else {
+    echo 'Wrong';
+}
 
 
 ?>
