@@ -70,3 +70,35 @@ echo $hello . ",  " . $user1->firstName . " " . $user1->lastName;
  * reference: https://phpenthusiast.com/object-oriented-php-tutorials/create-classes-and-objects
  */
 
+
+/*
+ * Add another object, call it $user2, give it a first name of 'Jane' and last name of 'Doe', then say hello to the user.
+ */
+
+class User {
+  public $firstName;
+  public $lastName;
+ 
+  public function hello()
+  {
+    return "hello";
+  }
+}
+ 
+ 
+$user1 = new User();
+$user1->firstName = 'John';
+$user1->lastName  = 'Doe';
+ 
+$hello = $user1->hello();
+ 
+ 
+$user2 = new User();
+$user2 ->firstName = 'Jane';
+$user2 ->lastName  = 'Doe';
+ 
+ 
+echo $hello . ",  " . $user1->firstName . " " . $user1->lastName;
+ 
+echo $hello . ",  " . $user2->firstName . " " . $user2->lastName;
+
