@@ -65,5 +65,8 @@ echo $hello . ",  " . $user1->firstName . " " . $user1->lastName;
 
 /*
  * What the??? As I'm still learning OOP as a noobie so not sure if my won code was good or should i follow phpenthusiast.com's code! :)
+ * above this line i was learning from udemy and practiced on phpenthusiast.com but after reading there tutorial im now clear about coding standard. :)
+ * My first solution was not good because i can't use the class properties with different values by creating multiple objects/instantiation. So i'll continue with phpenthusiast :)
+ * reference: https://phpenthusiast.com/object-oriented-php-tutorials/create-classes-and-objects
  */
 
