@@ -2,11 +2,13 @@
 /**
  * Very basic functions
  */
+
+/*
 function greet()
 {
     echo 'Hello World';
 }
-/*
+
 function greet($name)
 {
     echo 'Hello '. $name;
