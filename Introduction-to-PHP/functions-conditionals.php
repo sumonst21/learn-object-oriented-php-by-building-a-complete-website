@@ -42,3 +42,4 @@ if ($num1 == 30 && $num2 == 20) {
 } else {
     echo 'Wrong';
 }
+?>
