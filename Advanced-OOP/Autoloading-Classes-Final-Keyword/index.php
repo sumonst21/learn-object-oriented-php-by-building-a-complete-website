@@ -8,6 +8,9 @@ spl_autoload_register(function($class_name){
 $foo = new Foo;
 $bar = new Bar;
 
-$foo->sayHello();
+//$foo->sayHello();
 
 //$bar->sayHi();
+
+
+$bar->sayHello();
