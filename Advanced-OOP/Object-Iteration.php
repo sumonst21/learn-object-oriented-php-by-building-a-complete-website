@@ -29,4 +29,9 @@ class People{
 $people = new People;
 
 // call iterateObject
-$people->iterateObject();
+$people->iterateObject(); // this way we can access all of its own properties
+
+// but if we use this loop outside the class we will get only public values - we can't access private & protected values outside the class.
+foreach ($people as $key => $value) {
+	print "$key => $value\n";
+}
