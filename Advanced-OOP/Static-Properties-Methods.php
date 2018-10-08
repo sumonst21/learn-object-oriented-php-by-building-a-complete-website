@@ -19,6 +19,7 @@ class User{
 	}
 }
 
+
 // set variable this would get not valid
 $password = 'pass';
 // and this will get valid
@@ -32,3 +33,8 @@ if(User::validatePassword($password)){
 } else {
 	echo 'Password is NOT valid';
 }
+
+
+// this output's 5 so no instantiation we just had to just use the class name and then the property.
+echo User::$minPassLength;
+
