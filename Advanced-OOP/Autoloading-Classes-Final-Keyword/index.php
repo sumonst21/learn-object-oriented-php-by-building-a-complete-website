@@ -1,7 +1,8 @@
 <?php
-// include files
-include 'foo.php';
-include 'bar.php';
+// autolaoding classes using php function called: SPL auto load register.
+spl_autoload_register(function($class_name){
+	include $class_name . '.php';
+});
 
 // instantiate these 
 $foo = new Foo;
