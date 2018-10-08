@@ -9,3 +9,5 @@ $foo = new Foo;
 $bar = new Bar;
 
 $foo->sayHello();
+
+//$bar->sayHi();
