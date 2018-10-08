@@ -1,0 +1,5 @@
+<?php
+/*
+ * Static Properties & Methods
+ */
+
