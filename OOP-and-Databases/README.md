@@ -1,0 +1,6 @@
+# Topics Covered
+
+- Creating a database using PHPMyAdmmin
+- Creating a database class
+- Using the PDO database abstraction layer
+- CRUD functionality
